@@ -63,7 +63,8 @@
 .countdownButton:not(:disabled):hover {
   background: var(--blue-dark);
 
-  transform: translate3d(0px, -5px, -67.5px);
+  /* transform: translate3d(0px, -5px, -67.5px); */
+  transform: scale(1.1);
 }
 
 .countdownButtonActive {
